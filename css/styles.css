@@ -1,0 +1,97 @@
+#parentDivId1 {
+    background-color: black;
+    height: 65px;
+    /* overflow:hidden; */
+}
+#headerDiv1{
+   float: left;
+}
+
+#h1id1 {
+    color: white;
+    margin-left: 45px;
+}
+/* headerDiv2 not working */
+#headerDiv2{
+    background-color: red;
+}
+
+#h1id2 {
+    color: green;
+    margin-left: 45px;
+    float: left;  
+}
+
+#h5id{
+    float: right;
+    color: gray;
+    margin-right: 45px;
+}
+
+#h3id1right{
+    float: right;
+    background-color: black;
+    color: white;
+    margin-right: 45px; 
+}
+
+#divIdForPicture img{
+    float: left;
+}
+
+#divIdForPicture{
+    float: right;
+}
+
+#divIdForPicture h5{
+    position: relative;
+}
+
+/* #achabhaiimg{
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+
+.clear{
+	clear: both;
+}
+
+#container {
+    margin-left: 20;
+    margin-right: 20;
+}
+
+.submitButton1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.scrollBtn {
+    height: 75px;
+    width: 75px;
+    font-weight: 900;
+    line-height: 75px;
+    text-align: center;
+    font-size: 32px;
+    background: green;
+    color: white;
+    border-radius: 38.5px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 11;
+    margin-right: 50px;
+}
+
+body {
+    font-family: sans-serif;
+}
